@@ -1,0 +1,30 @@
+{
+    "model_name": "Panoptix ANN Calibrated",
+    "architecture": [
+        16,
+        8,
+        3
+    ],
+    "input_features": [
+        "cpu_usage",
+        "ram_usage"
+    ],
+    "output_classes": {
+        "0": "Low",
+        "1": "Moderate",
+        "2": "High"
+    },
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "sparse_categorical_crossentropy",
+    "class_weight": null,
+    "epochs_configured": 100,
+    "epochs_executed": 100,
+    "best_epoch": 100,
+    "batch_size": 16,
+    "validation_split": 0.2,
+    "random_seed": 42,
+    "training_samples": 624,
+    "best_validation_loss": 0.01954728737473488,
+    "best_validation_accuracy": 1.0
+}

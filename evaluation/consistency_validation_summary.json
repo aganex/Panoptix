@@ -1,0 +1,10 @@
+{
+    "model": "panoptix_ann.keras",
+    "test_samples": 157,
+    "test_ann_vs_rule_accuracy": 0.9872611464968153,
+    "test_ann_vs_actual_accuracy": 0.9872611464968153,
+    "test_rule_mismatch": 2,
+    "boundary_total_combinations": 10201,
+    "boundary_consistency": 57.082638956965006,
+    "boundary_mismatch": 4378
+}

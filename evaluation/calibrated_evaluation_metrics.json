@@ -1,0 +1,15 @@
+{
+    "model": "panoptix_ann_calibrated.keras",
+    "accuracy": 0.9745222929936306,
+    "precision_macro": 0.9280392156862746,
+    "recall_macro": 0.9280392156862746,
+    "f1_score_macro": 0.9280392156862746,
+    "total_testing_samples": 157,
+    "correct_predictions": 153,
+    "incorrect_predictions": 4,
+    "class_distribution": {
+        "Low": 100,
+        "Moderate": 51,
+        "High": 6
+    }
+}

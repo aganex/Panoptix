@@ -1,0 +1,18 @@
+{
+    "features": [
+        "cpu_usage",
+        "ram_usage"
+    ],
+    "target": "load_category",
+    "label_mapping": {
+        "Low": 0,
+        "Moderate": 1,
+        "High": 2
+    },
+    "test_size": 0.2,
+    "random_state": 42,
+    "scaling": "StandardScaler",
+    "total_samples": 781,
+    "training_samples": 624,
+    "testing_samples": 157
+}
